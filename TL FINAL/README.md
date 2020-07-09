@@ -19,7 +19,7 @@
 	* 2.4-Obtenemos los Top 5 Skills y Top 5 Tools para las demás posiciones. Y utilizaremos estas como una lista de Keywords para
 	machear directamente con los CVS y obtener nuestro perfil de candidato. 
 
->Para mayor detalle ver ver el Informe en /Inorme_Y_Consignas.
+>Para mayor detalle ver el Informe en /Inorme_Y_Consignas.
 
 ### Requerimientos
 
