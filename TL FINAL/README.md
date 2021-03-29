@@ -21,14 +21,69 @@
 
 >Para mayor detalle ver el Informe en /Informe_Y_Consignas.
 
-### Requerimientos
-
-Ver imports en los Notebooks: pandas, nltk, gensim, spacy, PyPDF2, matplotlib, selenium.
-
 ### Notebooks
 
 * Análisis 1 en --> Codigo/CV_Scoring_V1.ipynb
 * Análisis 2 en --> Codigo/Job_Positions_Extract&Analysis.ipynb y Codigo/CV_Scoring_V2.ipynb
+
+### Requerimientos TLFinal y cómo ejecutar los programas.
+
+Se debe tener instalado Anaconda. 
+
+>
+* CV_Scoring_V1.ipynb:
+>
+Estando ubicados en el root del proyecto, creamos nuestro entorno virtual (federicio_env) y lo activamos con:
+	
+    > conda create --name federicio_env
+
+    > conda activate federicio_env
+    
+Luego, parados en el entorno instalamos pip:
+    
+    > conda install pip
+    
+Se pueden instalar los paquetes necesarios de 2 maneras:
+	
+* Forma 1 (mediante pip3):
+    
+    > 1.1 --> pip3 install PACKAGE. 
+    
+    > 1.2 --> /home/fedricio/anaconda3/envs/federicio_env/bin/pip3 install PAQUETE_QUE_QUIERA(como gensim) --> Esto es para asegurarnos que realmente corramos el pip3 instalado en nuestro entorno virtual.	
+
+* Forma 2 (mediante conda):
+    
+    > conda install PACKAGE.
+
+    > Recomendación: instalar con CONDA y lo que no se pueda mediante pip3.
+	
+Entonces, la instalación de paquetes sera ejecutando:
+	
+    > conda install jupyter -->(para instalar el jupyter notebook). 
+
+    > conda install gensim
+
+    > pip3 install PyPDF2   -->(no se puede instalar por conda).
+
+    > conda install nltk
+
+    > conda install pandas
+
+    > conda install spacy
+
+    > conda install matplotlib
+
+    > python -m spacy download en_core_web_sm     --> (para poder ejecutar el paso 7-).
+    
+Por último nos fijamos que este todo instalado (con nuestro entorno activado):
+    
+    > pip3 list
+    
+    > conda list
+    
+* Job_Positions_Extract&Analysis.ipynb y CV_Scoring_V2.ipynb:
+> FaltaCOMPLETAR
+
 
 ### Mejoras
 
