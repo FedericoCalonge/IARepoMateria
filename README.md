@@ -1,9 +1,8 @@
 # IARepoMateria
->
-Repo de la materia Inteligencia Artificial - Universidad Nacional de Avellaneda
->
 >Trabajos Prácticos para la materia Inteligencia Artificial de la Universidad Nacional de Avellaneda.
+>
 >Profesor: Federico Gabriel D´Angiolo.
+>
 >Autor: Federico Calonge.
 
 ### Resumen Contenido:

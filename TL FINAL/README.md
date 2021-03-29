@@ -28,10 +28,9 @@
 
 ### Requerimientos TLFinal y cómo ejecutar los programas.
 
-Se debe tener instalado Anaconda. 
-
+Para ambos Análisis se debe tener instalado Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
 >
-* CV_Scoring_V1.ipynb:
+1.	Análisis 1 (CV_Scoring_V1.ipynb):
 >
 Estando ubicados en el root del proyecto, creamos nuestro entorno virtual (federicio_env) y lo activamos con:
 	
@@ -46,17 +45,17 @@ Luego, parados en el entorno instalamos pip:
 Se pueden instalar los paquetes necesarios de 2 maneras:
 	
 * Forma 1 (mediante pip3):
+>
+    > 1.1. >pip3 install PACKAGE. 
     
-    > 1.1 --> pip3 install PACKAGE. 
-    
-    > 1.2 --> /home/fedricio/anaconda3/envs/federicio_env/bin/pip3 install PAQUETE_QUE_QUIERA(como gensim) --> Esto es para asegurarnos que realmente corramos el pip3 instalado en nuestro entorno virtual.	
+    > 1.2. >/home/fedricio/anaconda3/envs/federicio_env/bin/pip3 install PAQUETE_QUE_QUIERA(como gensim) --> Esto es para asegurarnos que realmente corramos el pip3 instalado en nuestro entorno virtual.	
 
 * Forma 2 (mediante conda):
-    
+>
     > conda install PACKAGE.
 
-    > Recomendación: instalar con CONDA y lo que no se pueda mediante pip3.
-	
+Recomendación: instalar los paquetes con CONDA y lo que no se puedan mediante pip3.
+>
 Entonces, la instalación de paquetes sera ejecutando:
 	
     > conda install jupyter -->(para instalar el jupyter notebook). 
@@ -81,8 +80,8 @@ Por último nos fijamos que este todo instalado (con nuestro entorno activado):
     
     > conda list
     
-* Job_Positions_Extract&Analysis.ipynb y CV_Scoring_V2.ipynb:
-> FaltaCOMPLETAR
+2.	Análisis 2 (Job_Positions_Extract&Analysis.ipynb y CV_Scoring_V2.ipynb):
+> FALTA COMPLETAR
 
 
 ### Mejoras
