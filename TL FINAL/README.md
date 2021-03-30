@@ -4,7 +4,7 @@
 >Profesor: Federico Gabriel D´Angiolo.  
 >Autor: Federico Calonge.
 
-### Objetivos
+### Objetivos.
 
 1.	Análisis de Curriculums Vitae / CVs / Resumes de Candidatos en formato PDF y obtención de Perfiles de Candidatos. 
 	* 1.1-Extracción del Corpus (textos de Artículos de Wikipedia) y preprocesamiento del mismo.
@@ -21,12 +21,12 @@
 
 >Para mayor detalle ver el Informe en /Informe_Y_Consignas.
 
-### Notebooks
+### Notebooks.
 
 * Análisis 1 en --> Codigo/CV_Scoring_V1.ipynb
 * Análisis 2 en --> Codigo/Job_Positions_Extract&Analysis.ipynb y Codigo/CV_Scoring_V2.ipynb
 
-### Requerimientos TLFinal y cómo ejecutar los programas.
+### Requerimientos TLFinal y cómo ejecutar los Análisis.
 
 Para ambos Análisis se debe tener instalado Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
 >
@@ -38,11 +38,11 @@ Estando ubicados en el root del proyecto, creamos nuestro entorno virtual (feder
 
     > conda activate federicio_env
     
-Luego, parados en el entorno instalamos pip:
+Luego instalamos pip con dicho entorno activado:
     
     > conda install pip
     
-Se pueden instalar los paquetes necesarios de 2 maneras:
+Nota: se pueden instalar los paquetes necesarios de 2 maneras:
 	
 * Forma 1 (mediante pip3):
 >
@@ -56,13 +56,13 @@ Se pueden instalar los paquetes necesarios de 2 maneras:
 
 Recomendación: instalar los paquetes con CONDA y lo que no se puedan mediante pip3.
 >
-Entonces, la instalación de paquetes sera ejecutando:
+Entonces, para instalar los paquetes ejecutamos los siguientes comandos:
 	
-    > conda install jupyter -->(para instalar el jupyter notebook). 
+    > conda install jupyter                       -->(para instalar el jupyter notebook). 
 
     > conda install gensim
 
-    > pip3 install PyPDF2   -->(no se puede instalar por conda).
+    > pip3 install PyPDF2                         -->(no se puede instalar por conda).
 
     > conda install nltk
 
@@ -74,11 +74,15 @@ Entonces, la instalación de paquetes sera ejecutando:
 
     > python -m spacy download en_core_web_sm     --> (para poder ejecutar el paso 7-).
     
-Por último nos fijamos que este todo instalado (con nuestro entorno activado):
+Luego nos fijamos que este todo instalado (con nuestro entorno activado):
     
     > pip3 list
     
     > conda list
+  
+Y por último corremos jupyer notebook (con nuestro entorno activado) y ejecutamos el archivo 'CV_Scoring_V1.ipynb':
+
+    > jupyter-notebook
     
 2.	Análisis 2 (Job_Positions_Extract&Analysis.ipynb y CV_Scoring_V2.ipynb):
 > FALTA COMPLETAR
