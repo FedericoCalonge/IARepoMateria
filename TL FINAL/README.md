@@ -72,7 +72,7 @@ Entonces, para instalar los paquetes ejecutamos los siguientes comandos:
 
     > conda install matplotlib
 
-    > python -m spacy download en_core_web_sm     --> (para poder ejecutar el paso 7-).
+    > python -m spacy download en_core_web_sm     -->(para poder ejecutar el paso 7-).
     
 Luego nos fijamos que este todo instalado (con nuestro entorno activado):
     
@@ -80,7 +80,7 @@ Luego nos fijamos que este todo instalado (con nuestro entorno activado):
     
     > conda list
   
-Y por último corremos jupyer notebook (con nuestro entorno activado) y ejecutamos el archivo 'CV_Scoring_V1.ipynb':
+Y por último corremos jupyer notebook (con nuestro entorno activado) y ejecutamos el archivo 'CV_Scoring_V1.ipynb' en nuestro navegador (http://localhost:8888/tree):
 
     > jupyter-notebook
     
